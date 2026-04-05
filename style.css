@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f5f2ed;
+  color: #333;
+}
+
+/* ヘッダー */
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #4b2e1f;
+  color: white;
+}
+
+/* メイン */
+.hero {
+  text-align: center;
+  padding: 30px;
+}
+
+.hero img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.hero h2 {
+  margin-top: 10px;
+}
+
+/* セクション */
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  margin-top: 20px;
+}
+
+/* グリッド */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+/* カード */
+.card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 10px;
+}
+
+/* インスタ */
+.insta-area {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.insta-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #c8853a;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.insta-btn:hover {
+  background: #a96c2f;
+}
+
+/* マップ */
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  margin-top: 20px;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+
+/* スマホ */
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
